@@ -8,7 +8,7 @@ build)
 ;;
 web)
     cd /docs/_build/html
-    python -m http.server 80
+    python -m http.server 8000
 ;;
 *)
     echo "Usage: $0 <build | web>"
